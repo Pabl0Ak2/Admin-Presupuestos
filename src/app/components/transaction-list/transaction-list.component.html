@@ -1,0 +1,10 @@
+<div class="bg-white p-4 rounded shadow mt-4">
+    <h2 class="text-xl font-semibold mb-2">Transacciones</h2>
+    <ul>
+      <li *ngFor="let transaction of transactions" class="flex justify-between p-2 border-b">
+        <span>{{ transaction.description }}</span>
+        <span>${{ transaction.amount }}</span>
+      </li>
+    </ul>
+  </div>
+  

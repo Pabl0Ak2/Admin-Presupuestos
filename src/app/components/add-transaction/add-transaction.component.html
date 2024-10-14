@@ -1,0 +1,7 @@
+<div class="bg-white p-4 rounded shadow">
+    <h2 class="text-xl font-semibold mb-2">Añadir Transacción</h2>
+    <input [(ngModel)]="description" placeholder="Descripción" class="border p-2 rounded w-full mb-2" />
+    <input [(ngModel)]="amount" placeholder="Monto" type="number" class="border p-2 rounded w-full mb-2" />
+    <button (click)="addTransaction()" class="bg-blue-600 text-white p-2 rounded">Agregar</button>
+  </div>
+  
